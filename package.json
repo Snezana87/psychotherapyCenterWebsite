@@ -1,0 +1,24 @@
+{
+  "name": "sajt_za_centar_za_psihoterapiju",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snezana87/psichotherapyCenterWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snezana87/psichotherapyCenterWebsite/issues"
+  },
+  "homepage": "https://github.com/Snezana87/psichotherapyCenterWebsite#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+footer {
+  background: $indigoColor; 
+  background: -webkit-linear-gradient($indigoColor, $darkPinkColor); 
+  background: -o-linear-gradient($indigoColor, $darkPinkColor); 
+  background: -moz-linear-gradient($indigoColor, $darkPinkColor); 
+  background: linear-gradient($indigoColor, $darkPinkColor); 
+  margin-bottom:0;
+
+  p, a img {
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+  p {
+  color:white;
+  } 
+
+}
+

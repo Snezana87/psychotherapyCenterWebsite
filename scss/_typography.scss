@@ -1,0 +1,134 @@
+p {
+  font-size: 16px;
+  color: $darkGrayText;
+}
+.about-us p {
+  color: white;
+  text-align: justify;
+}
+
+.our-partners p {
+  margin-bottom: 45px;
+}
+
+.contact p {
+  color: white;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h5,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: $titlesFont;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  text-shadow: 1px 1px #847988;
+  padding-top: 450px;
+}
+
+h2 {
+  padding-top: 30px;
+  color: white;
+  font-size: 48px;
+  text-shadow: 1px 1px #847988;
+}
+
+h3 {
+  font-size: 44px;
+  color: $darkGrayText;
+  margin-bottom: 45px;
+}
+
+.parallax h3 {
+  color: $tirkizColor;
+  padding-top: 190px;
+  margin-bottom: 120px;
+  text-shadow: 1px 1px 4px gray;
+}
+
+.cr-titles h3 {
+  position: absolute;
+  width: 100%;
+  text-align: $centerAlign;
+  top: 50%;
+  z-index: 10000;
+  opacity: 0;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: opacity 0.8s ease-in-out;
+  -moz-transition: opacity 0.8s ease-in-out;
+  -o-transition: opacity 0.8s ease-in-out;
+  -ms-transition: opacity 0.8s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
+}
+.cr-titles h3 span:nth-child(1) {
+  font-family: $titlesFont;
+  display: block;
+}
+.cr-titles h3 span:nth-child(2) {
+  display: block;
+  background: $sliderColor;
+  font-size: 15px;
+  padding: 10px;
+  font-family: $titlesFont;
+}
+.our-team-container input.cr-selector-img-1:checked ~ .cr-titles h3:nth-child(1),
+.our-team-container input.cr-selector-img-2:checked ~ .cr-titles h3:nth-child(2),
+.our-team-container input.cr-selector-img-3:checked ~ .cr-titles h3:nth-child(3),
+.our-team-container input.cr-selector-img-4:checked ~ .cr-titles h3:nth-child(4) {
+  opacity: 1;
+}
+
+.contact h3 {
+  color: white;
+  text-shadow: 3px 3px 3px purple;
+}
+
+h4 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.services-individual {
+  color: $orangeText;
+}
+
+.services-couples {
+  color: $redText;
+}
+
+.services-family {
+  color: $blueText;
+}
+
+.services-bussines {
+  color: $purpleText;
+}
+
+.parallax h4 {
+  color: $tirkizColor;
+  text-shadow: 1px 1px 4px gray;
+  font-family: $mainFont;
+  text-transform: $upperCase;
+  margin-bottom: 0;
+}
+
+.contact h4,
+.contact strong {
+  color: $pinkColor;
+}
+
+h5 {
+  font-size: 16.5px;
+  text-shadow: 2px 2px 3px black;
+}

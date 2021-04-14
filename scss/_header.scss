@@ -1,0 +1,40 @@
+header {
+  background: $lightOrange url("../img/relax3.png") no-repeat center center;
+  min-height: 890px;
+}
+header,
+.header-top {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0;
+}
+.header-top {
+  background: url("../img/header-top-background.png") no-repeat top center;
+  .navbar-nav {
+    li {
+      a {
+        color: white;
+        border-right: 1px solid white;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        padding-top: 0;
+        padding-bottom: 0;
+        &:hover {
+          color: $pinkColor;
+          background-color: transparent;
+        }
+      }
+      &:last-child a {
+        border-right: none;
+      }
+    }
+  }
+}
+
+.navbar-toggle {
+  .icon-bar {
+    background-color: white;
+  }
+}

@@ -1,0 +1,163 @@
+@media screen and (max-width: 767.98px) {
+  .header-top {
+    .navbar-brand {
+      img {
+        width: 75%;
+        height: auto;
+      }
+    }
+    .navbar-collapse {
+      background-color: #cba462;
+      transform: translate(50%, 0px);
+      width: 100%;
+      position: fixed;
+      left: -50%;
+      height: 100vh;
+      top: 0;
+      .navbar-nav {
+        margin: 45px 0;
+        li {
+          a {
+            border-right: none;
+          }
+        }
+      }
+    }
+    .navbar-toggle,
+    .navbar-brand {
+      position: relative;
+      z-index: 100;
+    }
+  }
+
+  .header-down {
+    h1 {
+      font-size: 45px;
+    }
+    h2 {
+      font-size: 33px;
+    }
+  }
+  .parallax {
+    h3 {
+      font-size: 40px;
+    }
+  }
+  .our-team-container {
+    display: none;
+  }
+  .carousel {
+    display: block;
+  }
+  .our-partners {
+    img {
+      margin-top: 40px;
+    }
+  }
+  footer {
+    text-align: $centerAlign;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .header-down {
+    h1 {
+      font-size: 45px;
+    }
+    h2 {
+      font-size: 33px;
+    }
+  }
+  .header-top {
+    display: flex;
+    justify-content: center;
+    .navbar-header {
+      display: flex;
+      justify-content: center;
+      float: none;
+    }
+    .navbar-nav {
+      float: none;
+    }
+  }
+  footer {
+    .social-network-wrapper {
+      float: right;
+    }
+    a {
+      img {
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav.navbar-right {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .services {
+    p {
+      text-align: justify;
+    }
+  }
+  #img1,
+  #img5 {
+    transform: rotate(10deg) translate(0, 10px);
+  }
+  #img2,
+  #img4,
+  #img6 {
+    transform: rotate(-10deg) translate(0, 20px);
+  }
+  #img3 {
+    transform: rotate(5deg) translate(0, 10px);
+  }
+
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5,
+  #img6 {
+    &:hover {
+      transform: scale(1.3);
+      -webkit-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      -o-transform: scale(1.3);
+      z-index: 2;
+      -webkit-transition: 1s;
+      -moz-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  footer {
+    a {
+      img {
+        padding-left: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  footer {
+    a {
+      img {
+        padding-left: 50px;
+      }
+    }
+  }
+}
